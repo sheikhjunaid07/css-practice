@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar with flex</title>
+    <style>
+      .main {
+        height: 40px;
+        background-color: cadetblue;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .main2 {
+        height: 400px;
+        background-color: aqua;
+        display: flex;
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        /* justify-content: space-around; */
+        /* justify-content: start; */
+        /* justify-content: end; */
+        justify-content: center;
+        /* align-items: start; */
+        /* align-items: end; */
+        align-items: center;
+      }
+      .a {
+        /* border: 2px solid black; */
+        display: inline-block;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: burlywood;
+        font-size: 16px;
+      }
+      .b {
+        margin-left: 20;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="a">Home</div>
+      <div class="a b">About</div>
+      <div class="a b">Contact</div>
+      <div class="a b">Services</div>
+    </div>
+    <br />
+    <div class="main2">
+      <div class="c">Home</div>
+      <div class="c">About</div>
+      <div class="c">Contact</div>
+      <div class="c">Services</div>
+    </div>
+  </body>
+</html>

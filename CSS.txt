@@ -1,0 +1,47 @@
+CSS is a stylesheets language used to describe the presentation and design of HTML documents
+There are 3 types of CSS:
+
+Inline CSS: Applied directly within an HTML element using the style attribute.
+Internal CSS: Defined within a <style> tag inside the <head> section of an HTML Document.
+External CSS: Linked to an HTML Document via a separate .css file using the <link> tag.
+
+CSS Selectors:
+
+CSS Selectors are used to select the HTML elements you want to style.
+
+Universal Selector (*): Select all elements.
+
+Element Selector: Selects elements based on the element name.
+
+Class Selector (.): Selects element with a specific Class attribute.
+
+ID Selector (#): Selects an element with a specific ID attribute.
+
+Properties:
+Padding: Padding is the space between the content of an element and its border.
+and its working clockwise.
+
+Margin: Margin is the space outside the border of an element, separating
+it from other element.
+
+Border: border is defines the width, style, color,of an element's boundary.
+border-style - 
+        none
+        solid
+        dotted
+        dashed
+        double
+        groove
+        ridge
+        inset
+        outset
+
+border-radius: border-radius is defines the curvature of an element's corner.
+
+box-shadow: The box-shadow adds a shadow effect to an elements 
+
+text-shadow: text-shadow is a property that applies shadows to text, 
+specifying the horizontal and vertical offsets, blur radius, and color of the shadow.
+
+display: The display property specifies how an element is displayed on the page, determining its layout behavior, 
+including whether it appears as a block, inline, or flex element.
