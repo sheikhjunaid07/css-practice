@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+  </head>
+  <style>
+    .name {
+      height: 100px;
+      width: 100px;
+      background-color: blueviolet;
+      border: 20px solid teal;
+      border-bottom: 20px solid rgb(4, 28, 73);
+      margin: 100px;
+      /* transform: rotate(45deg); */
+      border-radius: 50%;
+      /* transition:all 1s steps(5) 0s; */
+      animation: addAnimation 0.2s ease-in 0s ;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+    }
+    .box {
+      position: fixed;
+    }
+    /* div:hover {
+      background-color: teal;
+      transform: rotate(60deg);
+      border-radius: 50%;
+      /* transform: scale(1,2);
+    } 
+    */
+
+    @keyframes addAnimation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <body>
+    <div class="name">
+      <div class="box">data</div>
+    </div>
+  </body>
+</html>
